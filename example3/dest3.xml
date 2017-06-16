@@ -1,0 +1,435 @@
+<changeSet author="jayaisenbrey" id="1.8.3">
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="3001"/>
+    <column name="INCLUDES_PLUS" valueBoolean="false"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="3002"/>
+    <column name="INCLUDES_PLUS" valueBoolean="false"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="3003"/>
+    <column name="INCLUDES_PLUS" valueBoolean="false"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="3004"/>
+    <column name="INCLUDES_PLUS" valueBoolean="false"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="3005"/>
+    <column name="INCLUDES_PLUS" valueBoolean="false"/>
+  </insert>
+</changeSet><changeSet author="jayaisenbrey" id="1.8.4">
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2000"/>
+    <column name="NAME" value="Home"/>
+    <column name="URL" value="/"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="layout/partials/homepage"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2001"/>
+    <column name="NAME" value="Digital Products"/>
+    <column name="DESCRIPTION" value="Digital Products"/>
+    <column name="URL" value="/digital-products"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2002"/>
+    <column name="NAME" value="Track/Event Specific"/>
+    <column name="URL" value="/track-event-specific"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2003"/>
+    <column name="NAME" value="Harness PPs"/>
+    <column name="URL" value="/harness"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2004"/>
+    <column name="NAME" value="Thoroughbred PPs"/>
+    <column name="URL" value="/thoroughbred"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2005"/>
+    <column name="NAME" value="Picks"/>
+    <column name="URL" value="/picks"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2006"/>
+    <column name="NAME" value="Premium News and Data"/>
+    <column name="URL" value="/premium-news-and-data"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2007"/>
+    <column name="NAME" value="Reports"/>
+    <column name="URL" value="/reports"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2008"/>
+    <column name="NAME" value="Horsemens's Products"/>
+    <column name="URL" value="/horsemens-products"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2009"/>
+    <column name="NAME" value="Physical Products"/>
+    <column name="DESCRIPTION" value="Physical Products"/>
+    <column name="URL" value="/physical-products"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2010"/>
+    <column name="NAME" value="Merchandise"/>
+    <column name="DESCRIPTION" value="Merchandise"/>
+    <column name="URL" value="/merchandise"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2011"/>
+    <column name="NAME" value="Apparel"/>
+    <column name="DESCRIPTION" value="Apparel"/>
+    <column name="URL" value="/merchandise"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2012"/>
+    <column name="NAME" value="Multimedia"/>
+    <column name="DESCRIPTION" value="Multimedia"/>
+    <column name="URL" value="/multimedia"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2013"/>
+    <column name="NAME" value="Photos &amp; Collectibles"/>
+    <column name="DESCRIPTION" value="Photos &amp; Collectibles"/>
+    <column name="URL" value="/photos-collectibles"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2014"/>
+    <column name="NAME" value="Books"/>
+    <column name="DESCRIPTION" value="Books"/>
+    <column name="URL" value="/books"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2015"/>
+    <column name="NAME" value="Biography &amp; Memoirs"/>
+    <column name="DESCRIPTION" value="Biography &amp; Memoirs"/>
+    <column name="URL" value="/biography-memoirs"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2016"/>
+    <column name="NAME" value="Breeding"/>
+    <column name="DESCRIPTION" value="Breeding"/>
+    <column name="URL" value="/breeding"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2017"/>
+    <column name="NAME" value="Classic Collections"/>
+    <column name="DESCRIPTION" value="Classic Collections"/>
+    <column name="URL" value="/classic-collections"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2018"/>
+    <column name="NAME" value="DRF Press Titles"/>
+    <column name="DESCRIPTION" value="DRF Press Titles"/>
+    <column name="URL" value="/drf-press-titles"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2019"/>
+    <column name="NAME" value="Wagering &amp; Handicapping"/>
+    <column name="DESCRIPTION" value="Wagering &amp; Handicapping"/>
+    <column name="URL" value="/wagering-handicapping"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2020"/>
+    <column name="NAME" value="Sports Betting"/>
+    <column name="DESCRIPTION" value="Sports Betting"/>
+    <column name="URL" value="/sports-betting"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2021"/>
+    <column name="NAME" value="Thoroughbred Wagering"/>
+    <column name="DESCRIPTION" value="Thoroughbred Wagering"/>
+    <column name="URL" value="/thoroughbred-wagering"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2022"/>
+    <column name="NAME" value="Children's"/>
+    <column name="DESCRIPTION" value="Childrens"/>
+    <column name="URL" value="/childrens"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2023"/>
+    <column name="NAME" value="New Products"/>
+    <column name="DESCRIPTION" value="New Products"/>
+    <column name="URL" value="/new-products"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2024"/>
+    <column name="NAME" value="Poker"/>
+    <column name="DESCRIPTION" value="Poker"/>
+    <column name="URL" value="/poker"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2025"/>
+    <column name="NAME" value="Reference &amp; Statistical"/>
+    <column name="DESCRIPTION" value="Reference &amp; Statistical"/>
+    <column name="URL" value="/reference-statistical"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+</changeSet><changeSet author="jayaisenbrey" id="1.8.27">
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4001"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4002"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4003"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4004"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4005"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4006"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4007"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4008"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4009"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4010"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4011"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="4012"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="CLASSIC"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5001"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5002"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5003"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5004"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5005"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5006"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5007"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5008"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5009"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5010"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5011"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="5012"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="FORMULATOR"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="6001"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="EASYFORM"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="6002"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="EASYFORM"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="6003"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="EASYFORM"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="7001"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="DAILY_RACING_PROGRAM"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="7002"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="DAILY_RACING_PROGRAM"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="7003"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="DAILY_RACING_PROGRAM"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="7004"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="DAILY_RACING_PROGRAM"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="7005"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="DAILY_RACING_PROGRAM"/>
+  </insert>
+</changeSet><changeSet author="jayaisenbrey" id="1.8.33">
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="8001"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="QUICKSHEETS"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="8002"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="QUICKSHEETS"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="8003"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="QUICKSHEETS"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="8004"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="QUICKSHEETS"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="8005"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="QUICKSHEETS"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="9001"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="HARNESS_EYE"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="9002"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="HARNESS_EYE"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="9003"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="HARNESS_EYE"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="9004"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="HARNESS_EYE"/>
+  </insert>
+  <insert tableName="DIGITAL_SKU">
+    <column name="SKU_ID" valueNumeric="9005"/>
+    <column name="INCLUDES_PLUS" valueBoolean="true"/>
+    <column name="TYPE" value="HARNESS_EYE"/>
+  </insert>
+</changeSet>

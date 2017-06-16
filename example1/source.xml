@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="friends.xsl"?>
+<root>
+<report name="Type1">
+<Datarow>
+<Name>Fred</Name>
+<Age>39</Age>
+</Datarow>
+<Datarow>
+<Name>George</Name>
+<Age>41</Age>
+</Datarow>
+</report>
+<report name="Type2">
+<Datarow>
+<Name>Sheila</Name>
+<Age>20</Age>
+</Datarow>
+<Datarow>
+<Name>Susie</Name>
+<Age>23</Age>
+</Datarow>
+</report>
+<report name="Type3">
+<Datarow>
+<Name>Ttttt</Name>
+<Age>200</Age>
+</Datarow>
+<Datarow>
+<Name>Ssss</Name>
+<Age>73</Age>
+</Datarow>
+</report>
+
+
+</root>
+
+

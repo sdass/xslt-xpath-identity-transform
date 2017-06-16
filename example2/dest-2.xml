@@ -1,0 +1,220 @@
+<changeSet author="jayaisenbrey" id="1.8.4">
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2000"/>
+    <column name="NAME" value="Home"/>
+    <column name="URL" value="/"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="layout/partials/homepage"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2001"/>
+    <column name="NAME" value="Digital Products"/>
+    <column name="DESCRIPTION" value="Digital Products"/>
+    <column name="URL" value="/digital-products"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2002"/>
+    <column name="NAME" value="Track/Event Specific"/>
+    <column name="URL" value="/track-event-specific"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2003"/>
+    <column name="NAME" value="Harness PPs"/>
+    <column name="URL" value="/harness"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2004"/>
+    <column name="NAME" value="Thoroughbred PPs"/>
+    <column name="URL" value="/thoroughbred"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2005"/>
+    <column name="NAME" value="Picks"/>
+    <column name="URL" value="/picks"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2006"/>
+    <column name="NAME" value="Premium News and Data"/>
+    <column name="URL" value="/premium-news-and-data"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2007"/>
+    <column name="NAME" value="Reports"/>
+    <column name="URL" value="/reports"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2008"/>
+    <column name="NAME" value="Horsemens's Products"/>
+    <column name="URL" value="/horsemens-products"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2009"/>
+    <column name="NAME" value="Physical Products"/>
+    <column name="DESCRIPTION" value="Physical Products"/>
+    <column name="URL" value="/physical-products"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2010"/>
+    <column name="NAME" value="Merchandise"/>
+    <column name="DESCRIPTION" value="Merchandise"/>
+    <column name="URL" value="/merchandise"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2011"/>
+    <column name="NAME" value="Apparel"/>
+    <column name="DESCRIPTION" value="Apparel"/>
+    <column name="URL" value="/merchandise"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2012"/>
+    <column name="NAME" value="Multimedia"/>
+    <column name="DESCRIPTION" value="Multimedia"/>
+    <column name="URL" value="/multimedia"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2013"/>
+    <column name="NAME" value="Photos &amp; Collectibles"/>
+    <column name="DESCRIPTION" value="Photos &amp; Collectibles"/>
+    <column name="URL" value="/photos-collectibles"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2014"/>
+    <column name="NAME" value="Books"/>
+    <column name="DESCRIPTION" value="Books"/>
+    <column name="URL" value="/books"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2015"/>
+    <column name="NAME" value="Biography &amp; Memoirs"/>
+    <column name="DESCRIPTION" value="Biography &amp; Memoirs"/>
+    <column name="URL" value="/biography-memoirs"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2016"/>
+    <column name="NAME" value="Breeding"/>
+    <column name="DESCRIPTION" value="Breeding"/>
+    <column name="URL" value="/breeding"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2017"/>
+    <column name="NAME" value="Classic Collections"/>
+    <column name="DESCRIPTION" value="Classic Collections"/>
+    <column name="URL" value="/classic-collections"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2018"/>
+    <column name="NAME" value="DRF Press Titles"/>
+    <column name="DESCRIPTION" value="DRF Press Titles"/>
+    <column name="URL" value="/drf-press-titles"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2019"/>
+    <column name="NAME" value="Wagering &amp; Handicapping"/>
+    <column name="DESCRIPTION" value="Wagering &amp; Handicapping"/>
+    <column name="URL" value="/wagering-handicapping"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2020"/>
+    <column name="NAME" value="Sports Betting"/>
+    <column name="DESCRIPTION" value="Sports Betting"/>
+    <column name="URL" value="/sports-betting"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2021"/>
+    <column name="NAME" value="Thoroughbred Wagering"/>
+    <column name="DESCRIPTION" value="Thoroughbred Wagering"/>
+    <column name="URL" value="/thoroughbred-wagering"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2022"/>
+    <column name="NAME" value="Children's"/>
+    <column name="DESCRIPTION" value="Childrens"/>
+    <column name="URL" value="/childrens"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2023"/>
+    <column name="NAME" value="New Products"/>
+    <column name="DESCRIPTION" value="New Products"/>
+    <column name="URL" value="/new-products"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2024"/>
+    <column name="NAME" value="Poker"/>
+    <column name="DESCRIPTION" value="Poker"/>
+    <column name="URL" value="/poker"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2025"/>
+    <column name="NAME" value="Reference &amp; Statistical"/>
+    <column name="DESCRIPTION" value="Reference &amp; Statistical"/>
+    <column name="URL" value="/reference-statistical"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+  </insert>
+</changeSet><changeSet author="jayaisenbrey" id="1.8.6">
+  <insert tableName="BLC_OFFER">
+    <column name="OFFER_ID" valueNumeric="1"/>
+    <column name="OFFER_NAME" value="Shirts Special"/>
+    <column name="START_DATE" valueDate="2015-03-04 15:57:22.548342"/>
+    <column name="END_DATE" valueDate="2020-01-01 00:00:00"/>
+    <column name="OFFER_TYPE" value="ORDER_ITEM"/>
+    <column name="OFFER_DISCOUNT_TYPE" value="PERCENT_OFF"/>
+    <column name="OFFER_VALUE" valueNumeric="20"/>
+    <column name="OFFER_DELIVERY_TYPE" value="AUTOMATIC"/>
+    <column name="STACKABLE" valueBoolean="true"/>
+    <column name="COMBINABLE_WITH_OTHER_OFFERS" valueBoolean="true"/>
+    <column name="OFFER_PRIORITY" valueNumeric="10"/>
+    <column name="APPLY_OFFER_TO_MARKED_ITEMS" valueBoolean="false"/>
+    <column name="APPLY_TO_SALE_PRICE" valueBoolean="false"/>
+    <column name="USES" valueNumeric="0"/>
+    <column name="MAX_USES" valueNumeric="0"/>
+  </insert>
+</changeSet>
