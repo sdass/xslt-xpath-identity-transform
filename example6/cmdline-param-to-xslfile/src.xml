@@ -1,0 +1,1378 @@
+<root>
+<changeSet author="xxxxx" id="MustNeedChange">
+  <insert tableName="BLC_ASSET_FOLDER">
+    <column name="ASSET_FOLDER_ID" valueNumeric="-999999"/>
+    <column name="ARCHIVED"/>
+    <column name="NAME" value="blcRootFolder"/>
+  </insert>
+</changeSet>
+<changeSet author="xxx" id="MustNeedChange">
+  <insert tableName="BLC_ASSET_FOLDER_ITEM_XREF">
+    <column name="ASSET_FOLDER_ITEM_XREF_ID" valueNumeric="-203"/>
+    <column name="ASSET_ID" valueNumeric="103"/>
+    <column name="FOLDER_ID" valueNumeric="-999999"/>
+  </insert>
+  <insert tableName="BLC_ASSET_FOLDER_ITEM_XREF">
+    <column name="ASSET_FOLDER_ITEM_XREF_ID" valueNumeric="-202"/>
+    <column name="ASSET_ID" valueNumeric="102"/>
+    <column name="FOLDER_ID" valueNumeric="-999999"/>
+  </insert>
+  <insert tableName="BLC_ASSET_FOLDER_ITEM_XREF">
+    <column name="ASSET_FOLDER_ITEM_XREF_ID" valueNumeric="-201"/>
+    <column name="ASSET_ID" valueNumeric="101"/>
+    <column name="FOLDER_ID" valueNumeric="-999999"/>
+  </insert>
+  <insert tableName="BLC_ASSET_FOLDER_ITEM_XREF">
+    <column name="ASSET_FOLDER_ITEM_XREF_ID" valueNumeric="-205"/>
+    <column name="ASSET_ID" valueNumeric="105"/>
+    <column name="FOLDER_ID" valueNumeric="-999999"/>
+  </insert>
+  <insert tableName="BLC_ASSET_FOLDER_ITEM_XREF">
+    <column name="ASSET_FOLDER_ITEM_XREF_ID" valueNumeric="-204"/>
+    <column name="ASSET_ID" valueNumeric="104"/>
+    <column name="FOLDER_ID" valueNumeric="-999999"/>
+  </insert>
+</changeSet>
+<changeSet author="xxxxx" id="MustNeedChange">
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2009"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Physical Products"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Physical Products"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/physical-products"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2010"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Merchandise"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Merchandise"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/merchandise"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2011"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Apparel"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Apparel"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/merchandise"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2012"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Multimedia"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Multimedia"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/multimedia"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2013"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Photos &amp; Collectibles"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Photos &amp; Collectibles"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/photos-collectibles"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2014"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Books"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Books"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/books"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2015"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Biography &amp; Memoirs"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Biography &amp; Memoirs"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/biography-memoirs"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2016"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Breeding"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Breeding"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/breeding"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2017"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Classic Collections"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Classic Collections"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/classic-collections"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2018"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="DRF Press Titles"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="DRF Press Titles"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/drf-press-titles"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2019"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Wagering &amp; Handicapping"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Wagering &amp; Handicapping"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/wagering-handicapping"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2020"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Sports Betting"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Sports Betting"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/sports-betting"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2021"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Thoroughbred Wagering"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Thoroughbred Wagering"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/thoroughbred-wagering"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2022"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Childrens"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Children's"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/childrens"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2023"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="New Products"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="New Products"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/new-products"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2024"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Poker"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Poker"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/poker"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2025"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION" value="Reference &amp; Statistical"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/physicalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Reference &amp; Statistical"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/reference-statistical"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2026"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Wizard Products"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/wizard-products"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2027"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="DRF Plus"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/drf-plus"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="2028"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED" value="Y"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE" value="catalog/digitalProducts"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Unused Products"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/unused-products"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1027"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Apparel"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/apparel"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1029"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Biography &amp; Memoirs"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/biography-memoirs"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1021"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Books"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/books"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1030"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Breeding"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/breeding"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1031"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Children's"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/childrens"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1026"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Classic Collections"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/classic-collections"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="18"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="DRF Press"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/drf-press"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1086"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="DRF Press Titles"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/drf-press-titles"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1023"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Handicapper's Corner"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/handicappers-corner"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1060"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Historical Photographs"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/books"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1028"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Merchandise, Photos &amp; Collectables"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/merchandise-photos-collectables"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY">
+    <column name="CATEGORY_ID" valueNumeric="1022"/>
+    <column name="ACTIVE_END_DATE"/>
+    <column name="ACTIVE_START_DATE" valueDate="2015-03-04 16:06:30.0"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DESCRIPTION"/>
+    <column name="DISPLAY_TEMPLATE"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="EXTERNAL_ID"/>
+    <column name="FULFILLMENT_TYPE"/>
+    <column name="INVENTORY_TYPE"/>
+    <column name="LONG_DESCRIPTION"/>
+    <column name="NAME" value="Multimedia"/>
+    <column name="OVERRIDE_GENERATED_URL" valueNumeric="0"/>
+    <column name="TAX_CODE"/>
+    <column name="URL" value="/multimedia"/>
+    <column name="URL_KEY"/>
+    <column name="DEFAULT_PARENT_CATEGORY_ID"/>
+    <column name="THEME_FILE_ID"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+    <column name="ROOT_DISPLAY_ORDER"/>
+  </insert>
+   <insert tableName="BLC_CATEGORY_XREF">
+    <column name="CATEGORY_XREF_ID" valueNumeric="8"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DISPLAY_ORDER" valueNumeric="1"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="CATEGORY_ID" valueNumeric="2010"/>
+    <column name="SUB_CATEGORY_ID" valueNumeric="2011"/>
+    <column name="DEFAULT_REFERENCE" valueNumeric="1"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY_XREF">
+    <column name="CATEGORY_XREF_ID" valueNumeric="9"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DISPLAY_ORDER" valueNumeric="2"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="CATEGORY_ID" valueNumeric="2010"/>
+    <column name="SUB_CATEGORY_ID" valueNumeric="2012"/>
+    <column name="DEFAULT_REFERENCE" valueNumeric="1"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY_XREF">
+    <column name="CATEGORY_XREF_ID" valueNumeric="10"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DISPLAY_ORDER" valueNumeric="3"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="CATEGORY_ID" valueNumeric="2010"/>
+    <column name="SUB_CATEGORY_ID" valueNumeric="2013"/>
+    <column name="DEFAULT_REFERENCE" valueNumeric="1"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+  <insert tableName="BLC_CATEGORY_XREF">
+    <column name="CATEGORY_XREF_ID" valueNumeric="11"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="DISPLAY_ORDER" valueNumeric="2"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="CATEGORY_ID" valueNumeric="2009"/>
+    <column name="SUB_CATEGORY_ID" valueNumeric="2014"/>
+    <column name="DEFAULT_REFERENCE" valueNumeric="1"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+  
+</changeSet>
+<changeSet author="xxxxx" id="MustNeedChange">
+  <insert tableName="BLC_SKU_MEDIA_MAP">
+    <column name="SKU_MEDIA_ID" valueNumeric="-1"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="MAP_KEY" value="backgroundImage"/>
+    <column name="MEDIA_ID" valueNumeric="101"/>
+    <column name="BLC_SKU_SKU_ID" valueNumeric="3001"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+  <insert tableName="BLC_SKU_MEDIA_MAP">
+    <column name="SKU_MEDIA_ID" valueNumeric="-2"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="MAP_KEY" value="backgroundImage"/>
+    <column name="MEDIA_ID" valueNumeric="102"/>
+    <column name="BLC_SKU_SKU_ID" valueNumeric="3002"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+  <insert tableName="BLC_SKU_MEDIA_MAP">
+    <column name="SKU_MEDIA_ID" valueNumeric="-3"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="MAP_KEY" value="backgroundImage"/>
+    <column name="MEDIA_ID" valueNumeric="103"/>
+    <column name="BLC_SKU_SKU_ID" valueNumeric="3003"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+  <insert tableName="BLC_SKU_MEDIA_MAP">
+    <column name="SKU_MEDIA_ID" valueNumeric="-4"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="MAP_KEY" value="backgroundImage"/>
+    <column name="MEDIA_ID" valueNumeric="104"/>
+    <column name="BLC_SKU_SKU_ID" valueNumeric="3004"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+  <insert tableName="BLC_SKU_MEDIA_MAP">
+    <column name="SKU_MEDIA_ID" valueNumeric="-5"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="MAP_KEY" value="backgroundImage"/>
+    <column name="MEDIA_ID" valueNumeric="105"/>
+    <column name="BLC_SKU_SKU_ID" valueNumeric="3005"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+  <insert tableName="BLC_SKU_MEDIA_MAP">
+    <column name="SKU_MEDIA_ID" valueNumeric="-6"/>
+    <column name="ARCHIVED"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="SNDBX_CATALOG_FLAG"/>
+    <column name="SNDBX_ORIG_ITEM_ID"/>
+    <column name="SNDBX_ORIG_RECORD_ID"/>
+    <column name="SNDBX_ID"/>
+    <column name="SNDBX_ARCHIVED_FLAG"/>
+    <column name="SNDBX_DELETED_FLAG"/>
+    <column name="SNDBX_TMPLT_RECORD_ID"/>
+    <column name="SNDBX_TIER"/>
+    <column name="MAP_KEY" value="backgroundImage"/>
+    <column name="MEDIA_ID" valueNumeric="106"/>
+    <column name="BLC_SKU_SKU_ID" valueNumeric="3006"/>
+    <column name="ADMIN_ADDITION_STATUS"/>
+  </insert>
+</changeSet>
+<changeSet author="xxxxx" id="MustNeedChange">
+  <insert tableName="BLC_STATIC_ASSET">
+    <column name="STATIC_ASSET_ID" valueNumeric="101"/>
+    <column name="ALT_TEXT"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="FILE_EXTENSION" value="jpg"/>
+    <column name="FILE_SIZE"/>
+    <column name="FULL_URL" value="/img/packBag.jpg"/>
+    <column name="MIME_TYPE" value="image/jpeg"/>
+    <column name="NAME" value="packBag"/>
+    <column name="STORAGE_TYPE" value="FILESYSTEM"/>
+    <column name="TITLE"/>
+  </insert>
+  <insert tableName="BLC_STATIC_ASSET">
+    <column name="STATIC_ASSET_ID" valueNumeric="102"/>
+    <column name="ALT_TEXT"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="FILE_EXTENSION" value="jpg"/>
+    <column name="FILE_SIZE"/>
+    <column name="FULL_URL" value="/img/packBox.jpg"/>
+    <column name="MIME_TYPE" value="image/jpeg"/>
+    <column name="NAME" value="packBox"/>
+    <column name="STORAGE_TYPE" value="FILESYSTEM"/>
+    <column name="TITLE"/>
+  </insert>
+  <insert tableName="BLC_STATIC_ASSET">
+    <column name="STATIC_ASSET_ID" valueNumeric="103"/>
+    <column name="ALT_TEXT"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="FILE_EXTENSION" value="jpg"/>
+    <column name="FILE_SIZE"/>
+    <column name="FULL_URL" value="/img/packChest.jpg"/>
+    <column name="MIME_TYPE" value="image/jpeg"/>
+    <column name="NAME" value="packChest"/>
+    <column name="STORAGE_TYPE" value="FILESYSTEM"/>
+    <column name="TITLE"/>
+  </insert>
+  <insert tableName="BLC_STATIC_ASSET">
+    <column name="STATIC_ASSET_ID" valueNumeric="104"/>
+    <column name="ALT_TEXT"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="FILE_EXTENSION" value="jpg"/>
+    <column name="FILE_SIZE"/>
+    <column name="FULL_URL" value="/img/packPile.jpg"/>
+    <column name="MIME_TYPE" value="image/jpeg"/>
+    <column name="NAME" value="packPile"/>
+    <column name="STORAGE_TYPE" value="FILESYSTEM"/>
+    <column name="TITLE"/>
+  </insert>
+  <insert tableName="BLC_STATIC_ASSET">
+    <column name="STATIC_ASSET_ID" valueNumeric="105"/>
+    <column name="ALT_TEXT"/>
+    <column name="CREATED_BY"/>
+    <column name="DATE_CREATED"/>
+    <column name="DATE_UPDATED"/>
+    <column name="UPDATED_BY"/>
+    <column name="FILE_EXTENSION" value="jpg"/>
+    <column name="FILE_SIZE"/>
+    <column name="FULL_URL" value="/img/packSack.jpg"/>
+    <column name="MIME_TYPE" value="image/jpeg"/>
+    <column name="NAME" value="packSack"/>
+    <column name="STORAGE_TYPE" value="FILESYSTEM"/>
+    <column name="TITLE"/>
+  </insert>
+</changeSet>
+</root>
